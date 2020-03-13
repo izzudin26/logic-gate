@@ -1,0 +1,13 @@
+body{
+    background-color: darkgray;
+}
+.center{
+    margin: auto;
+}
+.light-on{
+    color: yellow;
+    text-shadow: 2px 2px black;
+}
+.light-off{
+    color: black;
+}
