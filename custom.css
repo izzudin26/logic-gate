@@ -11,3 +11,7 @@ body{
 .light-off{
     color: black;
 }
+
+.hide{
+    display: none;
+}
