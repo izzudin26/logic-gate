@@ -14,7 +14,7 @@
     <div class="container justify-content-center">
         <div class="justify-content-center">
             <div class="col-md-5 col-sm-10 col-xs-10 col-lg-5 center">
-                <div class="card mt-5">
+                <div class="card mt-5 border-success">
                     <div class="card-body">
                         <h5 class="card-title">Logic Gate</h5>
                         <div class="row d-flex justify-content-center">
@@ -26,7 +26,7 @@
                                                     class="fa fa-minus"></i>
                                             </button>
                                         </div>
-                                        <input type="number" max="1" min="0" id="val1" class="form-control">
+                                        <input type="number" max="1" min="0" id="val1" class="form-control" disabled>
                                         <div class="input-group-append">
                                             <button class="btn btn-outline-success" id="increment1"><i
                                                     class="fa fa-plus"></i></button>
@@ -34,14 +34,16 @@
                                     </div>
                                     <div class="input-group mb-3">
                                         <div class="input-group-prepend">
-                                            <button class="btn btn-outline-success"><i class="fa fa-minus"></i></button>
+                                            <button class="btn btn-outline-success" id="decrement2"><i
+                                                    class="fa fa-minus"></i></button>
                                         </div>
-                                        <input type="number" max="1" min="0" id="val2" class="form-control">
+                                        <input type="number" max="1" min="0" id="val2" class="form-control" disabled>
                                         <div class="input-group-append">
-                                            <button class="btn btn-outline-success"><i class="fa fa-plus"></i></button>
+                                            <button class="btn btn-outline-success" id="increment2"><i
+                                                    class="fa fa-plus"></i></button>
                                         </div>
                                     </div>
-                                    <select id="gate" class="form-control mb-4">
+                                    <select id="gate" class="form-control mb-4 border-success">
                                         <option value="OR">OR</option>
                                         <option value="NOR">NOR</option>
                                         <option value="AND">AND</option>
